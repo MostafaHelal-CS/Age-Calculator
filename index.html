@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Clicker+Script&family=Great+Vibes&family=Noto+Nastaliq+Urdu:wght@400;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@100;200;300;400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Sacramento&family=Source+Code+Pro:wght@300;400;500;600;700;800;900&family=Spectral:ital,wght@0,300;1,200;1,300&family=Tangerine:wght@400;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <div class="container">
+            <h4 class="title">Age Calculator</h4>
+            <div class="input__fields">
+                <label for="day">
+                    <span>Day</span>
+                    <input type="number" placeholder="DD" name="day" id="day" required>
+                </label>
+                <label for="month">
+                    <span>Month</span>
+                    <input type="number" placeholder="MM" name="month" id="month" required>
+                </label>
+                <label for="year">
+                    <span>Year</span>
+                    <input type="number" placeholder="YYYY" name="year" id="year" required>
+                </label>
+                <button class="reset">Reset</button>
+            </div>
+            <div class="error"></div>
+            <div class="calc__Age">
+                <button class="getAge">Calculate Age</button>
+            </div>
+            <div class="result__Age">
+                <p class="years"><span>- -</span> years</p>
+                <p class="months"><span>- -</span> months</p>
+                <p class="days"><span>- -</span> days</p>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
